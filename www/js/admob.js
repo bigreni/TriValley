@@ -38,12 +38,12 @@
     function registerAdEvents() {
         // new events, with variable to differentiate: adNetwork, adType, adEvent
         document.addEventListener('onAdFailLoad', function (data) {
-
-        });
+            document.getElementById("screen").style.display = 'none';        });
         document.addEventListener('onAdLoaded', function (data) { });
         document.addEventListener('onAdPresent', function (data) { });
         document.addEventListener('onAdLeaveApp', function (data) { });
-        document.addEventListener('onAdDismiss', function (data) { });
+        document.addEventListener('onAdDismiss', function (data) { 
+            document.getElementById("screen").style.display = 'none';        });
     }
 
     function createSelectedBanner() {
@@ -56,7 +56,7 @@
 
    function checkFirstUse()
     {
-			TransitMaster.StopTimes({arrivals: true, headingLabel: "Arrival"});            initApp();
+            //document.getElementById("screen").style.display = 'none';			TransitMaster.StopTimes({arrivals: true, headingLabel: "Arrival"});            initApp();
             askRating();
     }
 
@@ -69,7 +69,7 @@ function askRating()
   promptAgainForEachNewVersion: true,
   storeAppURL: {
                 ios: '1250277592',
-                android: 'market://details?id=com.bigreni.trivalley'
+                android: 'market://details?id=com.trivalley.free'
                }
 };
  
