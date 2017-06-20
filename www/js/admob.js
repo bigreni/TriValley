@@ -68,7 +68,7 @@ function askRating()
   usesUntilPrompt: 10,
   promptAgainForEachNewVersion: true,
   storeAppURL: {
-                ios: '1225698349',
+                ios: '1250277592',
                 android: 'market://details?id=com.bigreni.trivalley'
                }
 };
