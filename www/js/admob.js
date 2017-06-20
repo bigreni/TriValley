@@ -56,8 +56,10 @@
 
    function checkFirstUse()
     {
-            //document.getElementById("screen").style.display = 'none';			TransitMaster.StopTimes({arrivals: true, headingLabel: "Arrival"});            initApp();
-            askRating();
+        //document.getElementById("screen").style.display = 'none';
+        TransitMaster.StopTimes({arrivals: true, headingLabel: "Arrival"});
+        initApp();
+        askRating();
     }
 
 function askRating()
