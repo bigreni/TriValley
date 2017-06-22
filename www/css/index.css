@@ -26,7 +26,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-    background-color: #CCC;
+    background-color: #D2E8FF;
 }
 
 div#fullpage {
@@ -42,7 +42,7 @@ a.langOption{
 
 a:link
 {
-    color: #333;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -54,19 +54,19 @@ a:link
 /* visited link */
 a:visited
 {
-    color: #333;
+    color: #FFF;
 }
 
 /* mouse over link */
 a:hover
 {
-    color: #333;
+    color: #FFF;
 }
 
 /* selected link */
 a:active
 {
-    color: #333;
+    color: #FFF;
 } 
 
 h4.selectLanguage {
@@ -74,11 +74,12 @@ h4.selectLanguage {
     text-decoration: none;
     text-shadow: none;
     padding: 5px 0 5px 0;
-    background-color: #808080;
+    background-color: #0000a0;
 }
 
 h3 {
 margin: 0;
+color: red;
 }
 
 ul {
